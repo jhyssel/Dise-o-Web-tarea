@@ -2,17 +2,30 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <title>Formulario</title>
   <form action='gracias.html' method="GET">
       <input type="text" placeholder="Nombre completo:" minlength="5" required name="nombre" id="nombre">
       <br>
-      <input type="email" placeholder="ejemplo@gmail.com" minlength="5" required >
+      <input type="email" placeholder="ejemplo@gmail.com" minlength="5"name="email" id="email" >
       <br>
-      <input type="tel" placeholder="Ingrese su numero de telefono:" minlength="5" required >
+      <input type="tel" placeholder="Ingrese su numero de telefono:" minlength="5" required name="tel" id="tel">
       <br>
-      <input type="date" placeholder="Ingrese la fecha:(20/12/1999)" minlength="5" required >
+      <input type="date" placeholder="Ingrese la fecha actual:" minlength="5" required name="date" id="date" >
+      <br>
+      <input type="textarea" placeholder="Comentarios:" name="comentarios" id="comentarios">
+      <br>
+      <input type="text" value="Seleccione su departamento:" readonly>
+      <br>
+      <select name="depa" id="depa">
+        <option value="1">Cochabamba</option>
+        <option value="1">Bolivia</option>
+        <option value="1">Bolivia</option>
+        <option value="1">Bolivia</option>
+        <option value="1">Bolivia</option>
+        <option value="1">Bolivia</option>
+      </select>
       <br>
       <input type="submit">
   </form>
