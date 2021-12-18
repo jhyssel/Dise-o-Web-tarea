@@ -1,0 +1,13 @@
+body
+{
+    background-color:rgb(47, 39, 155) ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.formula
+{
+    background-color:rgb(224, 223, 233) ;
+    width: 500;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 7px;
+}
