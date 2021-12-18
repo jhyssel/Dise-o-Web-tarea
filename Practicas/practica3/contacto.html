@@ -7,19 +7,19 @@
   <title>Formulario</title>
 
   <form action='gracias.html' method="GET">
-      <label for=""Nombre:></label>
+      <span>Ingrese su nombre completo:</span>
       <input type="text" placeholder="Nombre completo:" minlength="5" required name="nombre" id="nombre">
       <br>
-      <label for=""correo electronico></label>
+      <span>Ingrese su correo electronico:</span>
       <input type="email" placeholder="ejemplo@gmail.com" minlength="5"name="mail" id="mail" >
       <br>
-      <label for="" telefono></label>
+      <span>Ingrese su numero de telefono</span>
       <input type="tel" placeholder="Ingrese su numero de telefono:" minlength="5" required name="tele" id="tele">
       <br>
-      <label for=""Ingrese la fecha actual></label>
+      <span>Selecione la fecha actual:</span>
       <input type="date" placeholder="" minlength="5" required name="dates" id="dates" >
       <br>
-      <span>Selecione su Departamento</span>
+      <span>Selecione su Departamento:</span>
       <select name="depas" id="depas">
         <option value="1">Cochabamba</option>
         <option value="2">Santa Cruz</option>
@@ -32,8 +32,8 @@
         <option value="9">Sucre</option>
       </select>
       <br>
-      <label for=""Sus comentarios siempre ayudan></label>
-      <input type="textarea" placeholder="" name="comentario" id="comentario">
+      <span>Sus comentarios siempre ayudan:</span>
+      <input type="textarea" cols="30" rows="10" placeholder="Mensaje" name="comentario" id="comentario" >
       <br>
       <input type="submit">
   </form>
